@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.antonio.gesapp.ListaDeVehiculosRegistradosActivity"
+    android:background="@color/colorBackgraun">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/listaDeVehiculosRecyclerViewXML"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/botonRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="30dp"
+        android:elevation="8dp"
+        android:src="@drawable/ic_person_add_black_40dp"
+        tools:ignore="RtlHardcoded"
+        tools:targetApi="lollipop"
+        app:backgroundTint="@color/colorPrimary"
+
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/botonMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="20dp"
+        android:elevation="8dp"
+        android:src="@drawable/ic_home_black_40dp"
+        tools:ignore="RtlHardcoded"
+        tools:targetApi="lollipop"
+        app:backgroundTint="@color/colorPrimary"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/botonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="30dp"
+        android:elevation="8dp"
+        android:src="@drawable/ic_vpn_key_black_40dp"
+        tools:ignore="RtlHardcoded"
+        tools:targetApi="lollipop"
+        app:backgroundTint="@color/colorPrimary"/>
+
+
+        </android.support.design.widget.CoordinatorLayout>
+
+

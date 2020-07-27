@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.antonio.gesapp.LoginDeConductorActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+        <LinearLayout
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:focusableInTouchMode="true"
+            >
+
+
+            <LinearLayout
+                android:layout_weight=".2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/sub_titulo_texto_salida"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="@dimen/tamanoDeLosTextosTitulosC" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:ignore="NestedWeights">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_label_acent_30dp"
+                        android:contentDescription="@string/icon_indicador" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/subtitulo_titulo_texto_importante"
+                            android:textColor="@color/colorPrimaryText"
+                            android:textSize="@dimen/tamanoDeLosTextosSubtitulosC" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:text="@string/texto_antes_de_salir"
+                            android:textColor="@color/colorSecondaryText"
+                            android:textSize="@dimen/tamanoDeLosTextosC" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorDivider"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_label_acent_30dp"
+                        android:contentDescription="@string/icon_indicador" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/subtitulo_tiene_solo"
+                            android:textColor="@color/colorPrimaryText"
+                            android:textSize="@dimen/tamanoDeLosTextosSubtitulosC" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:text="@string/texto_cada_intento"
+                            android:textColor="@color/colorSecondaryText"
+                            android:textSize="@dimen/tamanoDeLosTextosC" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorDivider"
+                    android:visibility="visible" />
+
+                <LinearLayout
+
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_label_acent_30dp"
+                        android:contentDescription="@string/icon_indicador" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/subtitulo_si_falla_en"
+                            android:textColor="@color/colorPrimaryText"
+                            android:textSize="@dimen/tamanoDeLosTextosSubtitulosC" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:text="@string/texto_tendra_que_justificar"
+                            android:textColor="@color/colorSecondaryText"
+                            android:textSize="@dimen/tamanoDeLosTextosC" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorDivider"
+                    android:visibility="visible" />
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sub_titulo_texto_ingrece_sus_datos"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="@dimen/tamanoDeLosTextosSubtitulosC" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_el_sistema_solo_registra"
+                        android:textColor="@color/colorSecondaryText"
+                        android:textSize="@dimen/tamanoDeLosTextosC" />
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_weight=".8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_gravity="center_vertical"
+                            android:contentDescription="@string/img_vehiculo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_directions_car_acent_30dp"/>
+
+                        <android.support.design.widget.TextInputLayout
+
+                            android:id="@+id/textInputLayout3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:counterEnabled="true"
+                            app:counterMaxLength="7">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/inputObtenerPlacaXML"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/hind_placas"
+                                android:textColor="@color/colorSecondaryText"
+                                android:textSize="@dimen/tamanoDeLosTextoshindsC"
+                                android:inputType="textCapCharacters"
+                                android:digits="ABCDEDFGHIJKLMNÑOPQRSTUVWXYZ1234567890" />
+
+
+                        </android.support.design.widget.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_gravity="center_vertical"
+                            android:contentDescription="@string/icon_llave"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_vpn_key_acent_30dp"/>
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/textInputLayout2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:counterEnabled="true"
+                            app:counterMaxLength="2">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/inputVerificarContraseñaXML"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/hind_contraseña"
+                                android:inputType="textCapCharacters"
+                                android:textColor="@color/colorSecondaryText"
+                                android:textSize="@dimen/tamanoDeLosTextoshindsC"
+                                android:digits="ABCDEDFGHIJKLMNÑOPQRSTUVWXYZ1234567890" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp">
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/subtitulo_resultado_de_sus_intentos"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="@dimen/tamanoDeLosTextosSubtitulosC" />
+
+                    <TextView
+
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Validación Correcta:"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="@dimen/tamanoDeLosTextosC"
+
+
+
+                        />
+
+
+                    <LinearLayout
+
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
+                            android:id="@+id/mostrarResultadoCorrectoxml"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/texto_hind_salida_validacion_correcta"
+                            android:textColor="@color/colorCorrecto"
+                            android:textSize="@dimen/tamanoDeLosTextosC"
+                            android:gravity="end"
+
+
+
+
+                            />
+
+                        <ImageView
+                            android:layout_weight="1"
+                            android:contentDescription="@string/img_vehiculo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_verified_user_acent_30dp"
+                            android:layout_gravity="start"
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <View
+
+                        android:id="@+id/view6"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/colorDivider"
+                        android:visibility="visible" />
+
+                    <TextView
+
+                       android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       android:text="@string/texto_intento1"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="@dimen/tamanoDeLosTextosC" />
+
+                    <LinearLayout
+
+                        android:gravity="left"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:id="@+id/mostrarResultadointento1xml"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/texto_hind_primer_intento_fallido"
+                            android:textColor="@color/colorAlerta"
+                            android:textSize="@dimen/tamanoDeLosTextosC"
+                            android:layout_gravity="center_vertical"
+
+                            />
+
+                        <ImageView
+                            android:contentDescription="@string/img_vehiculo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_lock_acent_30dp"/>
+
+
+
+                    </LinearLayout>
+
+                    <TextView
+
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_intento2"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="@dimen/tamanoDeLosTextosC"
+
+
+                        />
+
+                    <LinearLayout
+                        android:gravity="left"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+
+                        <TextView
+                            android:id="@+id/mostrarResultadointento2xml"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/texto_hind_segundo_intento_fallido"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/colorAlerta"
+                            android:textSize="@dimen/tamanoDeLosTextosC"
+
+                            />
+
+                        <ImageView
+                            android:contentDescription="@string/img_vehiculo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_lock_acent_30dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorDivider"
+                        android:visibility="visible" />
+
+
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorDivider"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:contentDescription="@string/img_vehiculo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_playlist_add_check_acent_40dp"/>
+
+
+                        <TextView
+                            android:gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/texto_total_de_vehiculos_protegidos"
+                            android:textColor="@color/colorPrimaryText"
+                            android:textSize="@dimen/tamanoDeLosTextosC"
+                            android:layout_gravity="center_vertical"/>
+
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:id="@+id/totalDegistrosdePlacasXML"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/texto_hind_0"
+                            android:textColor="@color/colorPrimaryText"
+                            android:textSize="@dimen/subtituloMenuC"
+                            />
+
+
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorDivider"
+                        android:visibility="visible" />
+                    <Button
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="end"
+                        android:id="@+id/botonValidarContrasenaXML"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/botonloginDeCoductor"
+                        android:textAllCaps="false"
+                        android:theme="@style/buttonStyleRegistroConductor"
+                        android:elevation="8dp"
+                        android:textSize="@dimen/tamanoDeLosTextosBotonesC"
+                        android:drawableEnd="@drawable/ic_send_acent_24dp"
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorDivider"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <include layout="@layout/navigation"></include>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

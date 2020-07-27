@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+            <!--tablet-->
+
+
+    <!--textos Slahs tablet-->
+    <dimen name="tituloMenuSl">35sp</dimen>
+    <dimen name="tituloMenuGesSl">30sp</dimen>
+    <dimen name="subtituloMenuSl">30sp</dimen>
+
+
+    <!--Dimenciones de los iconos y cards del Ativity Main-->
+
+    <dimen name="tituloMenu">28sp</dimen>
+    <dimen name="subtituloMenu">25sp</dimen>
+    <dimen name="menu">22dp</dimen>
+
+
+
+    <!-- Tamaño de los textos Ativity Registro de conductor-->
+
+    <dimen name="tituloTextosT">22sp</dimen>
+    <dimen name="tamanoDeLosTextosSubtitulos">18sp</dimen>
+    <dimen name="tamanoDeLosTextos">16sp</dimen>
+    <dimen name="tamanoDeLosTextoshinds">14sp</dimen>
+    <dimen name="tamanoDeLosTextosBotones">18sp</dimen>
+
+    <!-- Tamaño de los textos de los titulos de las Activitys barras con icono-->
+
+
+
+    <dimen name="activity_vertical_margin">1dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">1dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+
+
+    <!--celular -->
+
+    <!--textos Slahs-->
+    <dimen name="tituloMenuSlC">22sp</dimen>
+    <dimen name="subtituloMenuSlC">18sp</dimen>
+
+    <!--Dimenciones  textos Ativity Main celular-->
+
+    <dimen name="tituloMenuC">18sp</dimen>
+    <dimen name="subtituloMenuC">16sp</dimen>
+    <dimen name="menuC">14sp</dimen>
+
+    <!-- Tamaño de los textos Ativity Registro de conductor celular-->
+    <dimen name="tamanoDeLosTextosTitulosC">16sp</dimen>
+    <dimen name="tamanoDeLosTextosSubtitulosC">14sp</dimen>
+    <dimen name="tamanoDeLosTextosBotonesC">12sp</dimen>
+    <dimen name="tamanoDeLosTextosC">12sp</dimen>
+    <dimen name="tamanoDeLosTextoshindsC">12sp</dimen>
+    <dimen name="fab_marginC">14sp</dimen>
+
+
+    <!--Dimenciones  textos Ativity Main tablet-->
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView
+
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    app:cardBackgroundColor="@color/colorPrimary_light"
+    app:cardElevation="8dp"
+    android:id="@+id/cardviewConductorXML"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="15dp"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/titulo1XML"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vehículo Resguardado"
+            android:textSize="21dp"
+            android:textColor="@color/colorPrimaryText"/>
+
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_https_black_50dp"
+                android:id="@+id/imagenCandado"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/titulo2XML"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Número de placa:"
+                android:textSize="21dp"
+                android:textColor="@color/colorPrimaryText"/>
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/titulo3PlacaXML"
+                android:text="345-UYT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimaryText"/>
+        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+</android.support.v7.widget.CardView>
+

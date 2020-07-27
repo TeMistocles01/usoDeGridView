@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">GES</string>
+
+
+    <!--String para Activity Menu-->
+
+    <string name="tituloMenu">Gestion Estacionamiento Seguro.</string>
+    <string name="texto_subtitulo_Menu">Protegiendo a tu vehículo.</string>
+    <string name="texto_registrar_Conductor">Registro de conductor y de vehículo.</string>
+    <string name="texto_comprobar">Comprobar contraseña del conductor.</string>
+    <string name="texto_listaDePlacas">Lista de placas registradas.</string>
+    <string name="texto_nevo">Nuevo inicio de sesión.</string>
+    <string name="texto_menu">Menu de opciones.</string>
+
+    <string name="home">Home.</string>
+
+
+    <!--  Activity Registro de Conductor  -->
+
+    <string name="texto_asegurese_de">Asegúrese de que los datos de su vehículo sean los correctos, antes de ingresar.</string>
+    <string name="subtitulo_titulo_invente_su_contraseña_y_memoricela">Invente su contraseña y memorícela.</string>
+    <string name="texto_constara_de_2_caracteres">Constará de 2 caracteres:</string>
+    <string name="texto_instruccion1">Podrá combinar dos números del 0 al 9. Ejemplos: (5 9), (3 7).</string>
+    <string name="texto_instruccion2">Tambien podrá combinar dos letras de la A a la Z. Ejemplos: (F Y), (A T).</string>
+    <string name="texto_instruccion3">O podrá combinar un número y una letra. Ejemplos: (B 5), (5 T).</string>
+    <string name="sub_titulo_texto_entrada_de_vehiculo">Entrada de vehículo.</string>
+    <string name="sub_titulo_texto_ingrece_sus_datos">Ingrese sus datos.</string>
+    <string name="texto_el_sistema_solo_registra">Sólo letras en mayúsculas y números, el sistema no admite ningún otro carácter.</string>
+
+    <string name="hind_placas">Número de placa, permiso o serie.</string>
+    <string name="hind_contraseña">Contraseña.</string>
+    <string name="hind_repetircontraseña">Repetir contraseña.</string>
+
+
+    <string name="texto_alerta">Alerta!</string>
+    <string name="texto_placa_alerta_registrada">Núm de placa ya registrado:</string>
+    <string name="texto_placa"> WER780Q.</string>
+
+
+    <string name="texto_boton_resguardar"> Resguardar vehículo.</string>
+
+
+    <!--  textos que se comparten en las activitys activity_registro_conductor y activity_login_de_conductor    -->
+
+    <string name="subtitulo_titulo_texto_importante">Importante.</string>
+    <string name="texto_total_de_vehiculos_protegidos">Total de vehículos registrados:</string>
+    <string name="texto_hind_0">0</string>
+
+
+    <!--Activity splash-->
+    <string name="texto_bienvenida">Bienvenido al sistema.</string>
+    <string name="texto_ges">GES.</string>
+
+    <string name="texto_inteligencia">Inteligencia y tecnología aplicada\n para tu seguridad.</string>
+
+
+
+    <!--  Activity Loguin de Conductor  -->
+    <string name="texto_antes_de_salir">Antes de salir verifique su número de placa sea el correcto.</string>
+    <string name="subtitulo_tiene_solo">Tiene sólo 2 intentos. </string>
+    <string name="texto_cada_intento">Cada intento fallido se mostrará en la presente pantalla.</string>
+    <string name="subtitulo_si_falla_en">Si falla en sus 2 intentos tendrá que justificarlo. </string>
+    <string name="texto_tendra_que_justificar">Tendrá que demostrar la propiedad del vehículo ante el administrador del sistema o ante la autoridad competente.</string>
+    <string name="sub_titulo_texto_salida">Salida de vehículo.</string>
+    <string name="subtitulo_resultado_de_sus_intentos">Resultados de sus intentos. </string>
+    <string name="texto_hind_salida_validacion_correcta">Muestra número de placa.</string>
+    <string name="texto_hind_primer_intento_fallido">Muestra número de placa.</string>
+    <string name="texto_hind_segundo_intento_fallido">Muestra número de placa.</string>
+    <string name="texto_intento1">Primer intento contraseña:</string>
+
+    <string name="texto_intento2">Segundo intento contraseña:</string>
+
+
+    <string name="botonloginDeCoductor">Validar contraseña.</string>
+
+
+    <!-- text items-->
+    <string name="title_home">Home</string>
+    <string name="title_registro">Registro</string>
+    <string name="title_login">Login</string>
+    <string name="title_lista">Lista</string>
+
+
+    <!--Titulos de las barra getionada desde el manifest -->
+
+    <string name="title_activity_registro_conductor">Registro de conductor</string>
+    <string name="title_activity_login_de_conductor">Login de conductor</string>
+    <string name="title_activity_lista_de_vehiculos_registrados">Lista de vehiculos registrados</string>
+    <string name="title_activity_mantenimiento_app">Nuevo inicio de cesión</string>
+    <string name="title_activity_main">Home</string>
+
+
+   <!-- descripccion del contenido de las imagenes-->
+    <string name="imagen_logo">logo.</string>
+    <string name="indicador">indicador.</string>
+    <string name="img_vehiculo">imagen de vehiculo</string>
+    <string name="icon_imagen">candado</string>
+    <string name="icon_indicador">indicador</string>
+    <string name="icon_chek">chek</string>
+    <string name="icon_llave">llave</string>
+    <string name="vehiculo">img_vehiculo</string>
+    <string name="escudo">img_escudo</string>
+
+    <!-- Celular String-->
+    <string name="texto_instruccion1c">Podrá combinar dos números del 0 al 9.\nEjemplos: (5 9), (3 7).</string>
+    <string name="texto_instruccion2c">Tambien podrá combinar dos letras de la A a la Z.\nEjemplos: (F Y), (A T).</string>
+    <string name="texto_instruccion3c">O podrá combinar un número y una letra.\nEjemplos: (B 5), (5 T).</string>
+
+
+
+
+</resources>
